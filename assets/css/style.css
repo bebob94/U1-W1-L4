@@ -1,12 +1,130 @@
 /* IMPOSTAZIONI GENERALI */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    background-image: url(../img/sfondo.png);
+    background-repeat: no-repeat;
+}
 /* HEADER */
+header{
+    margin-top: 1em;
+    width: 90%;
+    background: linear-gradient(rgb(3, 3, 214),rgb(2, 2, 112));
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
 
+header img{
+    padding-bottom: 2em;
+    width: 75%;
+}
+
+header h2{
+    padding-bottom: 1.5em;
+}
+
+header a{
+    color: white;
+}
 /* MAIN */
+main{
+    margin-top: 1em;
+    width: 90%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+main h1{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-size: 40px;
+    font-weight: 30px;
+}
+
+main h3{
+    margin: 1em;
+    color: rgba(128, 128, 128, 0.575);
+    font-size: 20px;
+}
+main li{
+    width: 100%;
+}
+
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
+table{
+    border-collapse: collapse;
+    margin: 1em;
+    width: 100% ;
+}
+
+caption{
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+th{
+    background-color: rgb(49, 49, 250);
+    color: white;
+    height: 3em;
+    border-right: 1px solid grey;
+    vertical-align: middle;
+}
+
+td{
+    border: 2px, solid, rgb(54, 2, 2);
+}
+
+tr{
+    text-align: center;
+}
+
+table tfoot tr{
+    padding-bottom: 2px solid gray;
+}
+
+aside div{
+    margin-top: 2em;
+    margin-bottom: 3em;
+    padding: 1em;
+    background-color: rgba(172, 169, 169, 0.863);
+}
+
+aside div h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+aside div p{
+    font-size: 20px;
+    font-weight: 300px;
+}
+aside button{
+    background-color: blue;
+    color: white;
+    border: 0;
+    margin-bottom: 1em;
+}
+
+aside div input{
+    border: 0;
+    border-bottom: dotted 1px;
+}
+
+aside h1{
+    text-align: center;
+    margin-bottom: 1em;
+}
 
 /* FORM */
 
