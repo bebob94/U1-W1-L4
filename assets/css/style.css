@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 body{
     background-image: url(../img/sfondo.png);
-    
+    font-family: 'Poppins', sans-serif;
 }
 /* HEADER */
 header{
     margin-top: 1em;
     border: solid 1px rgb(53, 52, 52);
     width: 90%;
+    box-shadow: 10px 10px 5px #3d3c3c;
     background: linear-gradient(#026a8d,#01526d);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: white;
-    font-family: 'Poppins', sans-serif;
 }
 
 header img{
@@ -34,6 +34,7 @@ main{
     margin-top: 1em;
     border: solid 1px rgb(53, 52, 52);
     width: 90%;
+    box-shadow: 10px 10px 5px #3d3c3c;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
@@ -160,6 +161,7 @@ footer{
     margin-right: auto;
     border: solid 1px rgb(53, 52, 52);
     width: 90%;
+    box-shadow: 10px 10px 5px #3d3c3c;
     background: linear-gradient(#04769c,#013a4d) ;
     color: white;
     text-align: center;
