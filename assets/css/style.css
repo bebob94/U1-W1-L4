@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 body{
     background-image: url(../img/sfondo.png);
-    background-repeat: no-repeat;
+    
 }
 /* HEADER */
 header{
     margin-top: 1em;
+    border: solid 1px rgb(53, 52, 52);
     width: 90%;
-    background: linear-gradient(rgb(3, 3, 214),rgb(2, 2, 112));
+    background: linear-gradient(#026a8d,#01526d);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -31,6 +32,7 @@ header a{
 /* MAIN */
 main{
     margin-top: 1em;
+    border: solid 1px rgb(53, 52, 52);
     width: 90%;
     background-color: white;
     margin-left: auto;
@@ -93,6 +95,8 @@ table tfoot tr{
 }
 
 aside div{
+    margin-left: 1em;
+    margin-right: 1em;
     margin-top: 2em;
     margin-bottom: 3em;
     padding: 1em;
@@ -125,7 +129,36 @@ aside h1{
     text-align: center;
     margin-bottom: 1em;
 }
+#correlati{
+    background-color: white;
+}
+.correlati h4{
+    display: inline;
+}
+.fas fa-calendar-alt{
+    font-size: 3px;
+}
+.correlati article{
+    padding-top: 1.5em;
+    text-align: right;
+}
+.correlati p {
+    display: inline;
+}
+footer{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px rgb(53, 52, 52);
+    width: 90%;
+    background: linear-gradient(#04769c,#013a4d) ;
+    color: white;
+    text-align: center;
+}
 
+footer a{
+    color: rgb(194, 10, 194);
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
