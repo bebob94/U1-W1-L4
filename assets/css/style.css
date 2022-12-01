@@ -65,7 +65,7 @@ main li{
 table{
     border-collapse: collapse;
     margin: 1em;
-    width: 100% ;
+    width: 90% ;
 }
 
 caption{
@@ -81,7 +81,9 @@ th{
     border-right: 1px solid grey;
     vertical-align: middle;
 }
-
+tfoot{
+    text-align: center;
+}
 td{
     border: 2px, solid, rgb(54, 2, 2);
 }
@@ -90,7 +92,7 @@ tr{
     text-align: center;
 }
 
-table tfoot tr{
+table tfoot tr td{
     padding-bottom: 2px solid gray;
 }
 
@@ -129,6 +131,10 @@ aside h1{
     text-align: center;
     margin-bottom: 1em;
 }
+main div+div{
+    font-weight: 400;
+}
+
 #correlati{
     background-color: white;
 }
